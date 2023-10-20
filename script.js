@@ -1,3 +1,6 @@
+
+
+
 var tl = gsap.timeline()
 
 
@@ -16,7 +19,7 @@ tl.from(".main h1", {
     stagger: 0.3,
 })
 
-tl.from(".main #left-img,#right-img", {
+tl.from(".main #left-img, #right-img", {
 
     opacity: 0,
     scale: 0,

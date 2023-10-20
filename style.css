@@ -16,10 +16,13 @@ html,body{
     width:100%;
 }
 
+
+
 .main{
     height: 100%;
     width: 100%;
     background-color: #000;
+    position: relative;
     /* margin-top: 2vw; */
 }
 
@@ -35,12 +38,12 @@ html,body{
 
 .nav img{
     height: 65px;
+    
 }
 
 
 .nav-part2{
     display: flex;
-    
     gap: 3vw;
 }
 .nav-part3{
@@ -62,6 +65,7 @@ html,body{
     padding: 18px 25px;
     font-size: 1vw;
     font-weight: 700;
+    border-radius: 50px;
     border: none;
 }
 
@@ -77,6 +81,7 @@ html,body{
 
 .main h1:nth-child(2){
     margin-top: 2vw;
+    /* background-color: red; */
 }
 
 .main h1 span{
