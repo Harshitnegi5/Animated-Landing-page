@@ -131,7 +131,7 @@ html,body{
 @media (max-width:600px) {
 
     .nav img{
-        height: 35px;
+        height: 40px;
     }
     .nav{
         height: 20vw;
@@ -153,6 +153,7 @@ html,body{
 
     .main h1{
         font-size: 10vw;
+        line-height: 1.2;
     }
     .main h1 span{
         font-size: 10px;
@@ -167,13 +168,13 @@ html,body{
     }
     
     .main #left-img{
-        height: 120px;
+        height: 140px;
         border-radius: 5px;
 
      }
 
      .main #right-img{
-        height: 120px;
+        height: 140px;
         border-radius: 5px;
         margin-bottom: 35px;
 
