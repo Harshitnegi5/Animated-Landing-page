@@ -1,22 +1,21 @@
 
 
-
 var tl = gsap.timeline()
 
 
-tl.from(".nav img,h3,h4,button", {
+tl.from(".nav img,h3,h4,button,i", {
     y: -100,
     duration: 1,
     delay: 0.5,
     opacity: 0,
-    stagger: 0.2,
+    stagger: 0.1,
 
 })
 
 tl.from(".main h1", {
     y: 120,
     opacity: 0,
-    stagger: 0.3,
+    stagger: 0.2,
 })
 
 tl.from(".main #left-img, #right-img", {

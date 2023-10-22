@@ -52,6 +52,10 @@ html,body{
     gap: 3vw;
 }
 
+.nav i{
+    display: none;
+}
+
 .nav h3{
     text-transform: uppercase;
 }
@@ -69,18 +73,19 @@ html,body{
     border: none;
 }
 
-.main h1{
-    text-align: center;
+ .main h1{
+     text-align: center;
     font-size: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* line-height: 1; */
+    line-height: 1; 
+
     
 }
 
 .main h1:nth-child(2){
-    margin-top: 2vw;
+    margin-top: 4vw;
     /* background-color: red; */
 }
 
@@ -116,3 +121,62 @@ html,body{
     transform: translate(-50%,0);
     font-size: 1.5vw;
 }
+
+
+
+
+/* ------------------- media queries ------------------------ */
+
+
+@media (max-width:600px) {
+
+    .nav img{
+        height: 35px;
+    }
+    .nav{
+        height: 20vw;
+        padding: 4px 6px;
+    }
+
+    .nav-part2{
+        display: none;
+    }
+
+    .nav-part3{
+        display:none;
+    } 
+    
+    .nav i{
+        display: inline;
+        font-size: 30px;
+    }
+
+    .main h1{
+        font-size: 10vw;
+    }
+    .main h1 span{
+        font-size: 10px;
+    }
+    .main h1:nth-child(2){
+        margin-top: 55vw;
+        /* color: red; */
+    }
+
+    .main h5{
+        font-size: 15px;
+    }
+    
+    .main #left-img{
+        height: 120px;
+        border-radius: 5px;
+
+     }
+
+     .main #right-img{
+        height: 120px;
+        border-radius: 5px;
+        margin-bottom: 35px;
+
+     }
+
+    }
